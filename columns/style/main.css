@@ -1,0 +1,44 @@
+.wrap{
+    margin: 0;
+}
+.h100{
+    height: 100vh;
+}
+.left{
+    float: left;
+    width: 100px;
+    background-color: #5b8dff;
+}
+.first{
+    float: left;
+    width: calc((100% - 100px)/2);
+    background-color: #218221;
+}
+.last{
+    float: right;
+    background-color: #ff8878;
+    width: calc((100% - 100px)/2);
+}
+
+/**************   flexbox   **************/
+.flex-wrap{
+    display: flex;
+}
+.left-flex{
+    width: 100px;
+    background-color: #5b8dff;
+    display: flex;
+}
+.content-flex{
+    display: flex;
+    flex-grow: 1;
+}
+.item{
+    width: 50%;
+}
+.first-flex{
+    background-color: #218221;
+}
+.last-flex{
+    background-color: #ff8878;
+}
